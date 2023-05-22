@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author ryuunosuke
+ *
+ */
+module practice {
+}
