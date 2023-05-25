@@ -15,7 +15,7 @@ public class E332_1 {
 				new Population("沖縄県", 1453, 3.9)
 				);
 		for(Population p : list) {
-			System.out.println(p.prefecture() + "(" + p.rate() + ")");
+			System.out.println(p.prefecture() + "(" + p.rate() + ")");	//対応するレコードを繋げる
 		}
 	}
 
