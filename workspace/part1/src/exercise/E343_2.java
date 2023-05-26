@@ -20,6 +20,7 @@ public class E343_2 {
 		System.out.println(list.remove(0));
 		//リストの要素数表示
 		System.out.println(list.size());
+		
 		System.out.println(list);
 	}
 
