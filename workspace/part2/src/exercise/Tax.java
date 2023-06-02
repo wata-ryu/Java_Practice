@@ -1,4 +1,4 @@
-package chapter6_1;
+package exercise;
 
 public class Tax {
 	private int number;	//納税者番号,	private->他のプログラムからアクセスできない変数
@@ -17,39 +17,5 @@ public class Tax {
 	public int zeigaku() {	//所得税額を計算して返す
 		return (int) ((shotoku - koujo) * 0.1);		//int 型のキャスト
 	}
-
-	public int getNumber() {	//getter
-		return number;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public int getShotoku() {
-		return shotoku;
-	}
-
-	public int getKoujo() {
-		return koujo;
-	}
-
-	public void setNumber(int number) {	//setter
-		this.number = number;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public void setShotoku(int shotoku) {
-		this.shotoku = shotoku;
-	}
-
-	public void setKoujo(int koujo) {
-		this.koujo = koujo;
-	}
-
-	
 	
 }
