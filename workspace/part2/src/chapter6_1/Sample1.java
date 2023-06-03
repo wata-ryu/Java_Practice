@@ -4,7 +4,7 @@ public class Sample1 {
 
 	public static void main(String[] args) {
 		Tax tax = new Tax(100, "田中宏", 300000, 100000);	//コンストラクタの呼び出し,インスタンスの生成
-		tax.setKoujo(120000);
+		tax.setKoujo(120000);	//セッターを使って控除額を変更
 		
 		System.out.println("納税者番号 = " + tax.getNumber());
 		System.out.println("氏　名 = " + tax.getName());
