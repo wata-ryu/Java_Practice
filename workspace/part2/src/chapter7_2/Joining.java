@@ -34,5 +34,9 @@ public class Joining {
 	public String getCsv() {//csv文字列を返す
 		return csv;
 	}
+	
+	public String getStr() {//csv文字列を返す
+		return csv;
+	}
 
 }
