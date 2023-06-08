@@ -8,10 +8,10 @@ public class Joining {
 		this.str = str;
 		this.delimiter = delimiter;
 	}
-	public Joining(String delimiter) {
+	public Joining(String delimiter) {	//thisによるコンストラクタの簡単化
 		this("", delimiter);
 	}
-	public Joining() {
+	public Joining() {	//thisによるコンストラクタの簡単化
 		this("", ",");
 	}
 }
