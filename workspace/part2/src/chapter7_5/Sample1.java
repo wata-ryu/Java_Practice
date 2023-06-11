@@ -9,7 +9,7 @@ public class Sample1 {
 		StaticJoining.add("banana");
 		StaticJoining.add("peach");
 		
-		System.out.println(StaticJoining.getCsv());//csv文字列を取り出して表示する
+		System.out.println(StaticJoining.getCsv());
 	}
 
 }
